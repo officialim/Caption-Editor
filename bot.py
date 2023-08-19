@@ -6,7 +6,7 @@
 import os
 from pyrogram import Client, filters
 
-CAPTION = os.environ.get("CAPTION")
+CAPTION = os.environ.get("hello")
 
 bot = Client(session_name="caption-editor",
              api_id=int(os.environ.get("API_ID")),
