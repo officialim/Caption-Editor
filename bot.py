@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 
 CAPTION = os.environ.get("hello")
 
-bot = Client(session_name="caption-editor",
+bot = Client(session_name="hello",
              api_id=int(os.environ.get("API_ID")),
              api_hash=os.environ.get("294a7bf4488b21609436de1cdd05c316"),
              bot_token=os.environ.get("6073323462:AAEpkSjs6dB2kuTOKO2Doi7_vqHeS38DAP0"))
