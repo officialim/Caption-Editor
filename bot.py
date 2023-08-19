@@ -9,9 +9,9 @@ from pyrogram import Client, filters
 CAPTION = os.environ.get("CAPTION")
 
 bot = Client(session_name="hello",
-             api_id=int(os.environ.get("API_ID")),
-             api_hash=os.environ.get("API_HASH"),
-             bot_token=os.environ.get("BOT_TOKEN"))
+             api_id=int(os.environ.get"25603034"
+             api_hash=os.environ.get"294a7bf4488b21609436de1cdd05c316"
+             bot_token=os.environ.get"6073323462:AAEpkSjs6dB2kuTOKO2Doi7_vqHeS38DAP0"
 
 #experiment #fail
 async def get_size(size):
